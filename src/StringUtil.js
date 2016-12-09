@@ -1,4 +1,4 @@
-import {hasVal}  from 'pureFun/EtonO/Util'
+import {hasVal}  from 'general-util'
 
 /**
  * @author ocean
@@ -58,9 +58,15 @@ export const clearElement=(str)=>(
 		: str
 )
 
-export default {
+const stringUtil = {
 	toHtmlEnter : toHtmlEnter,
 	toSymbol : toSymbol,
 	clearBlank : clearBlank,
 	clearElement : clearElement
 }
+
+if(!window.stringUtil){
+		window.stringUtil = stringUtil
+}
+
+export default stringUtil
