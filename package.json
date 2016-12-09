@@ -1,0 +1,24 @@
+{
+  "name": "string-util",
+  "version": "1.0.0",
+  "description": "字串處理工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oceanTsai/StringUtil.git"
+  },
+  "keywords": [
+    "string-util",
+    "stringUtil",
+    "string-tools"
+  ],
+  "author": "ocean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oceanTsai/StringUtil/issues"
+  },
+  "homepage": "https://github.com/oceanTsai/StringUtil#readme"
+}
