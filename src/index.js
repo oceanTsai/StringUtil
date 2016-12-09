@@ -1,4 +1,3 @@
-import React, {Component} from 'react'
 import {hasVal}  from 'pureFun/EtonO/Util'
 
 /**
@@ -31,7 +30,7 @@ export const toSymbol=(str, symbol=defauleSymbol)=>(
  */
 export const toHtmlEnter=(str, symbol=defauleSymbol)=>(
 	hasVal(str)
-		? toSymbol(str).split(symbol).map(tx=>(<div>{tx}</div>))
+		? toSymbol(str).split(symbol).map(tx=>(`<div>${tx}</div>`)).join('')
 		: str
 )
 
