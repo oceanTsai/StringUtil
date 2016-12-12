@@ -58,15 +58,15 @@ export const clearElement=(str)=>(
 		: str
 )
 
-const stringUtil = {
+const stringUtil_ocean = {
 	toHtmlEnter : toHtmlEnter,
 	toSymbol : toSymbol,
 	clearBlank : clearBlank,
 	clearElement : clearElement
 }
 
-if(!window.stringUtil){
-		window.stringUtil = stringUtil
+if(!window.stringUtil_ocean){
+		window.stringUtil_ocean = stringUtil_ocean
 }
 
-export default stringUtil
+export default stringUtil_ocean

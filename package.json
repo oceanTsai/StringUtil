@@ -1,6 +1,6 @@
 {
-  "name": "string-util",
-  "version": "1.0.0",
+  "name": "string-util-ocean",
+  "version": "1.0.1",
   "description": "字串處理工具",
   "main": "lib/StringUtil.js",
   "scripts": {
